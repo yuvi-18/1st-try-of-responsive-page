@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.all-container{
+    margin: 3rem;
+    min-height: 100vh;
+    
+}
+
+.bg {
+  background-size: contain;
+    background-image: url("background.jpg");
+    min-height: 100vh;
+    background-repeat: repeat;
+    overflow: hidden;
+    background-position: center;
+   
+}
+
+@media screen and (max-width:750px) {
+    
+}
+
+#image {
+    width: 40vh;
+    margin: 10% auto;
+    border-radius: 2vh;
+    list-style-type: "";
+    margin-right: 9px;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    align-items: center;}
+
+h1 {
+text-align:center;
+font-family:tahoma;
+background: linear-gradient(to right, blue 0%, #6a0dad 40%, red 100%);
+width: 75%;
+box-shadow:0 0 10px 7px  #1b1b1b;
+border-radius: 7px;
+transition: box-shadow 0.4s linear, color 0.4s linear, transform 0.4s linear;
+}
+
+h1:hover {
+    box-shadow:0 0 10px 7px  #808080;
+    cursor: pointer;
+    transform: scale(1.1);
+    background-clip: text;
+    color: transparent;
+  
+}
+    
+#caption {
+text-align:center;
+font-family:sans-serif;
+font-size: 2vh;
+color: #ffffff;
+letter-spacing: 1.1rem;
+margin-top:7vh;
+}
+
+
+.content {
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+    border: 0.3rem solid blue;
+    margin-top: 10%;
+    background: linear-gradient(to right, blue 0%, #6a0dad 40%, red 100%);
+    opacity: 70%;
+}
+
+.text p {
+    margin: 5% 5%;
+    font-size: 1.5vw;
+    color: #ffffff;
+    text-align: justify;
+    overflow: auto;
+}
+
+.last {
+    background: linear-gradient(to right, blue 0%, #6a0dad 40%, red 100%);
+    margin-top: 10vh;
+    margin-bottom: -7vh;
+    color:#ffffff ;
+    min-height: 5vh;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+opacity: 0.8;
+    justify-content: center;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+.text::first-letter{
+    font-size: 2em;
+}
+
+.last a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
